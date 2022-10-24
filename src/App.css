@@ -1,0 +1,55 @@
+body{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+#deleteButton {
+  width: 76px;
+  height: 28px;
+  margin-left: auto;
+  padding: 7px 17px 6px;
+  border-radius: 4px;
+  border: solid 1px #ee0000;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.14px;
+  color: #ee0000;
+}
+
+#deleteButton:disabled {
+  border: solid 1px #b8b8b8;
+  color: #b8b8b8;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+#usersTable {
+  border-collapse: collapse;
+  width: 50%;
+}
+#usersTable tr:hover {
+  background-color: #fafafa;
+}
+#usersTable tr { 
+  height: 45px;
+  width: 45px;
+}
+#usersTable td {
+  font-size: 13px;
+  border-bottom: 1px solid #ddd;
+}
+#usersTable th {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.13px;
+  color: #777; 
+}
